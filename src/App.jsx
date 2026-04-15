@@ -8,17 +8,7 @@ import Footer from './components/Footer'
 import Lenis from 'lenis'
 
 const App = () => {
-//   // Initialize Lenis
-// const lenis = new Lenis({
-//   autoRaf: true,
-// });
 
-// // Listen for the scroll event and log the event data
-// lenis.on('scroll', (e) => {
-//   console.log(e);
-// });
-
-// Initialize Lenis
 const lenis = new Lenis();
 
 // Use requestAnimationFrame to continuously update the scroll
@@ -33,8 +23,7 @@ requestAnimationFrame(raf);
       <Hero/>
       <Highlight/>
       <Showcase/>
-      <Footer/>
-      {/* <Footer2/> */}
+      <Footer/> 
     </div>
   )
 }
